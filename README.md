@@ -44,7 +44,7 @@ Este backend resuelve tres pilares de seguridad:
 
 ### 1. Configuración de Base de Datos
 Crea la base de datos en tu MySQL local:
-```sql`
+`sql`
 
 ### 2. Configuración de Entorno
 Edita `src/main/resources/application.properties` con tus credenciales:
@@ -60,6 +60,6 @@ Al iniciar la aplicación por primera vez, Hibernate creará las tablas automát
 ### 4. Semilla de Roles (Post-Install)
 Una vez iniciada la app, ejecuta este SQL para habilitar los roles:
 
-INSERT INTO roles(name) VALUES('ROLE_USER');
-INSERT INTO roles(name) VALUES('ROLE_MODERATOR');
-INSERT INTO roles(name) VALUES('ROLE_ADMIN');
+`INSERT INTO roles(name) VALUES('ROLE_USER');`
+`INSERT INTO roles(name) VALUES('ROLE_MODERATOR');`
+`INSERT INTO roles(name) VALUES('ROLE_ADMIN');`
