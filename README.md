@@ -57,3 +57,9 @@ spring.datasource.password=TU_CONTRASEÑA
 Al iniciar la aplicación por primera vez, Hibernate creará las tablas automáticamente.
 `mvn spring-boot:run`
 
+### 4. Semilla de Roles (Post-Install)
+Una vez iniciada la app, ejecuta este SQL para habilitar los roles:
+
+INSERT INTO roles(name) VALUES('ROLE_USER');
+INSERT INTO roles(name) VALUES('ROLE_MODERATOR');
+INSERT INTO roles(name) VALUES('ROLE_ADMIN');
