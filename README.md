@@ -3,7 +3,7 @@
 > **Sistema de Gestión de Tareas con Arquitectura de Seguridad Militar.**
 > Implementación robusta de Autenticación (JWT), Autorización basada en Roles (RBAC) y Aislamiento de Datos por Usuario.
 
-![Java 21](https://img.shields.io/badge/Java-21-orange?logo=openjdk)
+![Java 17](https://img.shields.io/badge/Java-17-orange?logo=openjdk)
 ![Spring Boot 3](https://img.shields.io/badge/Spring_Boot-3.x-green?logo=springboot)
 ![Spring Security](https://img.shields.io/badge/Security-Spring_Security_6-red?logo=springsecurity)
 ![JWT](https://img.shields.io/badge/Auth-JWT_Token-black)
@@ -23,7 +23,7 @@ Este backend resuelve tres pilares de seguridad:
 
 ## 🛠️ Tech Stack & Arquitectura
 
-* **Core:** Java 21 (LTS) & Spring Boot 3.4
+* **Core:** Java 17 (LTS) & Spring Boot 3.4
 * **Seguridad:** Spring Security 6 + JJWT (JSON Web Tokens).
 * **Base de Datos:** MySQL 8 + Spring Data JPA (Hibernate).
 * **Seguridad de Datos:** BCrypt Password Hashing & Data Sanitization (@JsonIgnore).
@@ -40,11 +40,12 @@ Este backend resuelve tres pilares de seguridad:
 
 ### Prerrequisitos
 * MySQL Server (o Docker container)
-* Java JDK 21+
+* Java JDK 17+
 
 ### 1. Configuración de Base de Datos
 Crea la base de datos en tu MySQL local:
-`sql`
+```sql
+CREATE DATABASE task_manager_db;
 
 ### 2. Configuración de Entorno
 Edita `src/main/resources/application.properties` con tus credenciales:
