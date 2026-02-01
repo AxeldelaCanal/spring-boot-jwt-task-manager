@@ -44,7 +44,7 @@ Este backend resuelve tres pilares de seguridad:
 
 ### 1. Configuración de Base de Datos
 Crea la base de datos en tu MySQL local:
-```sql
+```sql`
 CREATE DATABASE task_manager_db;
 
 ### 2. Configuración de Entorno
