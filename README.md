@@ -50,7 +50,7 @@ CREATE DATABASE task_manager_db;
 ### 2. Configuración de Entorno
 Edita `src/main/resources/application.properties` con tus credenciales:
 
-`spring.datasource.url=jdbc:mysql://localhost:3306/task_manager_db``\n`
+`spring.datasource.url=jdbc:mysql://localhost:3306/task_manager_db`
 `spring.datasource.username=root`
 `spring.datasource.password=TU_CONTRASEÑA`
 
