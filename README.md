@@ -52,7 +52,7 @@ Edita `src/main/resources/application.properties` con tus credenciales:
 
 `spring.datasource.url=jdbc:mysql://localhost:3306/task_manager_db`
 `spring.datasource.username=root`
-`spring.datasource.password=TU_CONTRASEÑA`V
+`spring.datasource.password=TU_CONTRASEÑA`
 
 ### 3. Ejecución
 Al iniciar la aplicación por primera vez, Hibernate creará las tablas automáticamente.
