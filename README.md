@@ -44,13 +44,13 @@ Este backend resuelve tres pilares de seguridad:
 
 ### 1. Configuración de Base de Datos
 Crea la base de datos en tu MySQL local:
-```sql`
+```sql
 CREATE DATABASE task_manager_db;
 
 ### 2. Configuración de Entorno
 Edita `src/main/resources/application.properties` con tus credenciales:
 
-```spring.datasource.url=jdbc:mysql://localhost:3306/task_manager_db
+spring.datasource.url=jdbc:mysql://localhost:3306/task_manager_db
 spring.datasource.username=root
 spring.datasource.password=TU_CONTRASEÑA
 
